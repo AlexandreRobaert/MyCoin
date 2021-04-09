@@ -13,6 +13,9 @@
 		ACB423F32620D50F00E15D2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB423F12620D50F00E15D2D /* Main.storyboard */; };
 		ACB423F52620D51000E15D2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACB423F42620D51000E15D2D /* Assets.xcassets */; };
 		ACB423F82620D51000E15D2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACB423F62620D51000E15D2D /* LaunchScreen.storyboard */; };
+		ACB424052620E92A00E15D2D /* BiscointData.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB424042620E92A00E15D2D /* BiscointData.swift */; };
+		ACB424092620EA6400E15D2D /* BiscointManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB424082620EA6400E15D2D /* BiscointManager.swift */; };
+		ACB4240C2620EC8C00E15D2D /* BiscointModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACB4240B2620EC8C00E15D2D /* BiscointModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		ACB423F42620D51000E15D2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACB423F72620D51000E15D2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ACB423F92620D51000E15D2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ACB424042620E92A00E15D2D /* BiscointData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiscointData.swift; sourceTree = "<group>"; };
+		ACB424082620EA6400E15D2D /* BiscointManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiscointManager.swift; sourceTree = "<group>"; };
+		ACB4240B2620EC8C00E15D2D /* BiscointModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BiscointModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,7 @@
 			children = (
 				ACB423EB2620D50F00E15D2D /* AppDelegate.swift */,
 				ACB423ED2620D50F00E15D2D /* SceneDelegate.swift */,
+				ACB424032620E90B00E15D2D /* Model */,
 				ACB424012620DF6100E15D2D /* Controller */,
 				ACB423F12620D50F00E15D2D /* Main.storyboard */,
 				ACB423F42620D51000E15D2D /* Assets.xcassets */,
@@ -73,6 +80,16 @@
 				ACB423EF2620D50F00E15D2D /* HomeViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		ACB424032620E90B00E15D2D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACB424042620E92A00E15D2D /* BiscointData.swift */,
+				ACB424082620EA6400E15D2D /* BiscointManager.swift */,
+				ACB4240B2620EC8C00E15D2D /* BiscointModel.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,8 +162,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACB4240C2620EC8C00E15D2D /* BiscointModel.swift in Sources */,
 				ACB423F02620D50F00E15D2D /* HomeViewController.swift in Sources */,
+				ACB424092620EA6400E15D2D /* BiscointManager.swift in Sources */,
 				ACB423EC2620D50F00E15D2D /* AppDelegate.swift in Sources */,
+				ACB424052620E92A00E15D2D /* BiscointData.swift in Sources */,
 				ACB423EE2620D50F00E15D2D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
